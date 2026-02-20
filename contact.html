@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt - Projekt Husky</title>
+    <!-- Modern Font: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <main class="page-content">
+            <!-- Page Header -->
+            <header class="page-header text-center">
+                <div class="container">
+                    <h1>Kontakt & Karriere</h1>
+                    <p class="subtitle">Wir freuen uns auf Ihre Nachricht oder Bewerbung</p>
+                </div>
+            </header>
+
+            <section class="content-section">
+                <div class="container">
+                    <div class="grid-2-col">
+
+                        <!-- Contact Information -->
+                        <div class="contact-info">
+                            <h2>Ihre Ansprechpartner</h2>
+                            <p>Sie haben Fragen zur Individualpädagogik oder möchten sich bewerben? Kontaktieren Sie uns
+                                gerne direkt über unsere Geschäftsstellen.</p>
+
+                            <div class="card" style="margin-bottom: 1.5rem;">
+                                <h3 style="font-size: 1.25rem;">Zentrale Köln</h3>
+                                <ul style="list-style: none; padding: 0;">
+                                    <li style="margin-bottom: 0.5rem;">📍 Kölner Str. 30, 50859 Köln</li>
+                                    <li style="margin-bottom: 0.5rem;">📞 02234 9899711</li>
+                                    <li>✉️ <a href="mailto:info@projekt-husky.de">info@projekt-husky.de</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="card" style="margin-bottom: 1.5rem;">
+                                <h3 style="font-size: 1.25rem;">Zentrale Obernkirchen</h3>
+                                <ul style="list-style: none; padding: 0;">
+                                    <li style="margin-bottom: 0.5rem;">📍 Sülbecker Weg 1, 31683 Obernkirchen</li>
+                                    <li style="margin-bottom: 0.5rem;">📞 05724 9683 792</li>
+                                    <li>✉️ <a
+                                            href="mailto:s.schifkowski@projekt-husky.de">s.schifkowski@projekt-husky.de</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="card bg-surface" style="border-left: 4px solid var(--color-secondary);">
+                                <h3 style="font-size: 1.25rem;">Initiativbewerbungen</h3>
+                                <p style="font-size: 0.95rem;">Wir freuen uns über engagierte und motivierte
+                                    Mitarbeitende. Senden Sie Ihre Initiativbewerbung gerne an unsere Geschäftsstellen.
+                                </p>
+                                <a href="#" class="btn btn-outline"
+                                    style="margin-top: 1rem; display: inline-block;">Downloads für Bewerber</a>
+                            </div>
+                        </div>
+
+                        <!-- Contact Form -->
+                        <div class="contact-form card shadow-md">
+                            <h2>Schreiben Sie uns</h2>
+                            <form action="#" method="POST" id="huskyContactForm">
+                                <div class="form-group" style="margin-bottom: 1.5rem;">
+                                    <label for="name"
+                                        style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Name</label>
+                                    <input type="text" id="name" name="name" required
+                                        style="width: 100%; padding: 0.75rem; border: 1px solid var(--color-border); border-radius: var(--radius-sm); font-family: inherit;">
+                                </div>
+                                <div class="form-group" style="margin-bottom: 1.5rem;">
+                                    <label for="email"
+                                        style="display: block; margin-bottom: 0.5rem; font-weight: 500;">E-Mail</label>
+                                    <input type="email" id="email" name="email" required
+                                        style="width: 100%; padding: 0.75rem; border: 1px solid var(--color-border); border-radius: var(--radius-sm); font-family: inherit;">
+                                </div>
+                                <div class="form-group" style="margin-bottom: 1.5rem;">
+                                    <label for="subject"
+                                        style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Betreff</label>
+                                    <select id="subject" name="subject"
+                                        style="width: 100%; padding: 0.75rem; border: 1px solid var(--color-border); border-radius: var(--radius-sm); font-family: inherit; background-color: white;">
+                                        <option value="allgemein">Allgemeine Anfrage</option>
+                                        <option value="erziehungsstelle">Erziehungsstellen</option>
+                                        <option value="bewerbung">Karriere & Bewerbung</option>
+                                        <option value="fasd">FASD-Beratung</option>
+                                    </select>
+                                </div>
+                                <div class="form-group" style="margin-bottom: 1.5rem;">
+                                    <label for="message"
+                                        style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Ihre
+                                        Nachricht</label>
+                                    <textarea id="message" name="message" rows="5" required
+                                        style="width: 100%; padding: 0.75rem; border: 1px solid var(--color-border); border-radius: var(--radius-sm); font-family: inherit; resize: vertical;"></textarea>
+                                </div>
+                                <div class="form-group" style="margin-bottom: 1.5rem;">
+                                    <label
+                                        style="display: flex; align-items: flex-start; gap: 0.75rem; font-size: 0.875rem; cursor: pointer;">
+                                        <input type="checkbox" required style="margin-top: 0.2rem;">
+                                        <span>Ich stimme der Verarbeitung meiner Daten gemäß der <a href="#"
+                                                style="text-decoration: underline;">Datenschutzerklärung</a> zu.</span>
+                                    </label>
+                                </div>
+                                <button type="submit" class="btn btn-primary" style="width: 100%;">Nachricht
+                                    senden</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
