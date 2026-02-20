@@ -9,7 +9,10 @@ export default defineConfig({
         about: resolve(__dirname, 'about.html'),
         quality: resolve(__dirname, 'quality.html'),
         youth: resolve(__dirname, 'youth-services.html'),
-        contact: resolve(__dirname, 'contact.html')
+        contact: resolve(__dirname, 'contact.html'),
+        impressum: resolve(__dirname, 'impressum.html'),
+        privacy: resolve(__dirname, 'privacy.html'),
+        accessibility: resolve(__dirname, 'accessibility.html')
       }
     }
   }

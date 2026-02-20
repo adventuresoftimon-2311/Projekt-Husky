@@ -9,7 +9,7 @@ function initCookieBanner() {
         banner.className = 'cookie-banner';
         banner.innerHTML = `
             <div class="cookie-content">
-                <p>Wir verwenden Cookies, um unsere Website und unseren Service zu optimieren. <a href="https://www.projekt-husky.de/datenschutzerklaerung/" target="_blank" style="text-decoration: underline;">Datenschutzerklärung</a></p>
+                <p>Wir verwenden Cookies, um unsere Website und unseren Service zu optimieren. <a href="/privacy.html" style="text-decoration: underline;">Datenschutzerklärung</a></p>
                 <div class="cookie-buttons">
                     <button id="accept-cookies" class="btn btn-primary" style="padding: 0.5rem 1rem;">Akzeptieren</button>
                     <button id="reject-cookies" class="btn btn-outline" style="padding: 0.5rem 1rem;">Ablehnen</button>

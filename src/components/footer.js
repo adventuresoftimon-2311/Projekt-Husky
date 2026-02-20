@@ -1,5 +1,5 @@
 export function renderFooter() {
-    const footerHtml = `
+  const footerHtml = `
     <footer class="site-footer">
       <div class="container footer-container">
         <div class="footer-brand">
@@ -17,9 +17,9 @@ export function renderFooter() {
         <div class="footer-links">
           <h4>Rechtliches</h4>
           <ul>
-            <li><a href="#">Impressum</a></li>
-            <li><a href="#">Datenschutzerklärung</a></li>
-            <li><a href="#">Barrierefreiheit</a></li>
+            <li><a href="/impressum.html">Impressum</a></li>
+            <li><a href="/privacy.html">Datenschutzerklärung</a></li>
+            <li><a href="/accessibility.html">Barrierefreiheit</a></li>
           </ul>
         </div>
       </div>
@@ -30,5 +30,5 @@ export function renderFooter() {
       </div>
     </footer>
   `;
-    document.body.insertAdjacentHTML('beforeend', footerHtml);
+  document.body.insertAdjacentHTML('beforeend', footerHtml);
 }
