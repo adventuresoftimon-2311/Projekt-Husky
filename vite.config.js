@@ -12,7 +12,9 @@ export default defineConfig({
         contact: resolve(__dirname, 'contact.html'),
         impressum: resolve(__dirname, 'impressum.html'),
         privacy: resolve(__dirname, 'privacy.html'),
-        accessibility: resolve(__dirname, 'accessibility.html')
+        accessibility: resolve(__dirname, 'accessibility.html'),
+        newsOstfalia: resolve(__dirname, 'news-ostfalia.html'),
+        newsSchutzkonzept: resolve(__dirname, 'news-schutzkonzept.html')
       }
     }
   }
