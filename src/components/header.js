@@ -18,6 +18,9 @@ export function renderHeader() {
                     <li><a href="/about-leitung.html">Leitung & Historie</a></li>
                     <li><a href="/about-koordination.html">Koordination</a></li>
                     <li><a href="/about-standorte.html">Standorte</a></li>
+                    <li style="border-top: 1px solid var(--color-border); margin-top: 0.5rem; padding-top: 0.5rem;"><a href="/quality-ziele.html"><strong>Qualität:</strong> Ziele</a></li>
+                    <li><a href="/quality-leitsaetze.html">Leitsätze</a></li>
+                    <li><a href="/quality-vernetzung.html">Vernetzung & Praxis</a></li>
                 </ul>
             </li>
             <li class="has-dropdown">
@@ -26,33 +29,20 @@ export function renderHeader() {
                     <li><a href="/youth-ueber.html">Über Jugendliche</a></li>
                     <li><a href="/youth-kidsbuch.html">Kidsbuch</a></li>
                     <li><a href="/youth-erziehungsstellen.html">Erziehungsstellen</a></li>
-                </ul>
-            </li>
-            <li><a href="/fasd-beratung.html">FASD-Beratung</a></li>
-            <li class="has-dropdown">
-                <a href="/#aktuelles">Aktuelles <svg class="dropdown-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
-                <ul class="dropdown-menu">
-                    <li><a href="/news-ostfalia.html">Seminar Ostfalia</a></li>
-                    <li><a href="/news-schutzkonzept.html">Schutzkonzept</a></li>
+                    <li style="border-top: 1px solid var(--color-border); margin-top: 0.5rem; padding-top: 0.5rem;"><a href="/fasd-beratung.html">FASD-Beratung</a></li>
                 </ul>
             </li>
             <li class="has-dropdown">
-                <a href="/quality-ziele.html">Qualität <svg class="dropdown-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
-                <ul class="dropdown-menu">
-                    <li><a href="/quality-ziele.html">Ziele</a></li>
-                    <li><a href="/quality-leitsaetze.html">Leitsätze</a></li>
-                    <li><a href="/quality-vernetzung.html">Vernetzung & Praxis</a></li>
-                </ul>
-            </li>
-            <li class="has-dropdown">
-                <a href="/contact-ansprechpartner.html">Kontakt <svg class="dropdown-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
+                <a href="/contact-ansprechpartner.html">Kontakt & Aktuelles <svg class="dropdown-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
                 <ul class="dropdown-menu">
                     <li><a href="/contact-ansprechpartner.html">Ansprechpartner</a></li>
                     <li><a href="/contact-karriere.html">Karriere</a></li>
                     <li><a href="/contact-formular.html">Nachricht senden</a></li>
+                    <li><a href="/downloads.html">Downloads</a></li>
+                    <li style="border-top: 1px solid var(--color-border); margin-top: 0.5rem; padding-top: 0.5rem;"><a href="/news-ostfalia.html"><strong>Aktuelles:</strong> Seminar Ostfalia</a></li>
+                    <li><a href="/news-schutzkonzept.html">Schutzkonzept</a></li>
                 </ul>
             </li>
-            <li><a href="/downloads.html">Downloads</a></li>
           </ul>
         </nav>
       </div>
