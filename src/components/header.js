@@ -12,23 +12,23 @@ export function renderHeader() {
           <ul class="nav-list">
             <li><a href="/">Startseite</a></li>
             <li class="has-dropdown">
-                <a href="/about.html">Projekt Husky <svg class="dropdown-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
+                <a href="/about-konzeption.html">Projekt Husky <svg class="dropdown-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
                 <ul class="dropdown-menu">
-                    <li><a href="/about.html#konzeption">Konzeption</a></li>
-                    <li><a href="/about.html#leitung">Leitung & Historie</a></li>
-                    <li><a href="/about.html#koordination">Koordination</a></li>
-                    <li><a href="/about.html#standorte">Standorte</a></li>
+                    <li><a href="/about-konzeption.html">Konzeption</a></li>
+                    <li><a href="/about-leitung.html">Leitung & Historie</a></li>
+                    <li><a href="/about-koordination.html">Koordination</a></li>
+                    <li><a href="/about-standorte.html">Standorte</a></li>
                 </ul>
             </li>
             <li class="has-dropdown">
-                <a href="/youth-services.html">Jugendliche <svg class="dropdown-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
+                <a href="/youth-ueber.html">Jugendliche <svg class="dropdown-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
                 <ul class="dropdown-menu">
-                    <li><a href="/youth-services.html#jugendliche">Über Jugendliche</a></li>
-                    <li><a href="/youth-services.html#kidsbuch">Kidsbuch</a></li>
-                    <li><a href="/youth-services.html#erziehungsstellen">Erziehungsstellen</a></li>
+                    <li><a href="/youth-ueber.html">Über Jugendliche</a></li>
+                    <li><a href="/youth-kidsbuch.html">Kidsbuch</a></li>
+                    <li><a href="/youth-erziehungsstellen.html">Erziehungsstellen</a></li>
                 </ul>
             </li>
-            <li><a href="/youth-services.html#fasd">FASD-Beratung</a></li>
+            <li><a href="/fasd-beratung.html">FASD-Beratung</a></li>
             <li class="has-dropdown">
                 <a href="/#aktuelles">Aktuelles <svg class="dropdown-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
                 <ul class="dropdown-menu">
@@ -37,22 +37,22 @@ export function renderHeader() {
                 </ul>
             </li>
             <li class="has-dropdown">
-                <a href="/quality.html">Qualität <svg class="dropdown-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
+                <a href="/quality-ziele.html">Qualität <svg class="dropdown-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
                 <ul class="dropdown-menu">
-                    <li><a href="/quality.html#ziele">Ziele</a></li>
-                    <li><a href="/quality.html#leitsaetze">Leitsätze</a></li>
-                    <li><a href="/quality.html#vernetzung">Vernetzung & Praxis</a></li>
+                    <li><a href="/quality-ziele.html">Ziele</a></li>
+                    <li><a href="/quality-leitsaetze.html">Leitsätze</a></li>
+                    <li><a href="/quality-vernetzung.html">Vernetzung & Praxis</a></li>
                 </ul>
             </li>
             <li class="has-dropdown">
-                <a href="/contact.html">Kontakt <svg class="dropdown-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
+                <a href="/contact-ansprechpartner.html">Kontakt <svg class="dropdown-icon" viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
                 <ul class="dropdown-menu">
-                    <li><a href="/contact.html#ansprechpartner">Ansprechpartner</a></li>
-                    <li><a href="/contact.html#karriere">Karriere</a></li>
-                    <li><a href="/contact.html#formular">Nachricht senden</a></li>
+                    <li><a href="/contact-ansprechpartner.html">Ansprechpartner</a></li>
+                    <li><a href="/contact-karriere.html">Karriere</a></li>
+                    <li><a href="/contact-formular.html">Nachricht senden</a></li>
                 </ul>
             </li>
-            <li><a href="/contact.html#downloads">Downloads</a></li>
+            <li><a href="/downloads.html">Downloads</a></li>
           </ul>
         </nav>
       </div>
